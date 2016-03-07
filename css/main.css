@@ -1,0 +1,161 @@
+/*comienza header*/
+.background{
+	background-color: black;
+	width: 100%;
+	height: auto;
+}
+.flatness{
+	width: 300px;
+	margin-top: -35px;
+}
+.navbar-header{
+	background-color: black;
+}
+.nav{
+	background-color: black;
+	font-style: italic;
+	font-family: comic sans;
+	}
+.collapse{
+	background-color: black;
+}
+.active{
+	background-color: black;
+}
+.menu{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+	padding: 30px 10px;
+	font-style: italic;
+	font-family: comic sans;
+}
+.backheader{
+background-color:#1C1C1C;
+}
+.imgflower{
+	background-image: url(../image/header-image.jpg);
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+	margin-top: 3%;
+	padding-top: 10%;
+	padding-left: 30%;
+}
+.cuadro{
+	width: 60%;
+	height: 60%;
+	background-color: black;
+	opacity: .9;
+	text-align: center;
+	font-style:italic;
+	font-family: cursive;
+	padding-top: 5%;
+}
+.spring{
+	font-size: 40px;
+	color:#FAAC58;
+}
+p{
+	color:white;
+}
+/*acaba ek header*/
+section{
+	background-color:#1C1C1C;
+} 
+.flores{
+	background-image: cover;
+	width:100%;
+	height: 300%;
+	padding: 10% 0% 0% 0%;
+	}
+.recuadroflores{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	color:#FAAC58;
+	font-style: italic;
+	font-family: cursive;
+	text-align: center;
+	padding-top: 7%;
+	margin-bottom: 10%;
+	}
+.recuadro{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+	color:#FAAC58;
+	font-style: italic;
+	font-family: cursive;
+	text-align: center;
+	padding-top: 7%;
+	margin-bottom: 10%;
+}
+.imgflormorada{
+	width: 100%;
+	height:auto;
+	}
+form{
+	background-color: black;
+	opacity: .8;
+	padding: 20px 40px;
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+	text-align: center;
+	margin-left:20%;
+	margin-bottom: 5%;
+	}
+.aboutme{
+	background-color: black;
+	opacity: .8;
+	padding: 20px 40px;
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+	text-align: center;
+	margin-left:20%;
+	padding-bottom: 30px;
+	} 
+.imgchica{
+	width: 100%;
+	height: 400px;
+}
+.titulo{
+	font-size: 20px;
+	margin-top: 5px;
+}
+.icons{
+	border-radius:100%;
+	width:8%;
+	background-color: gray;
+	display:inline-block;
+	margin:5px;
+	} 
+.video{
+	width: 100%;
+}
+	/* termina section */
+	/*comienza footer*/
+footer{
+	background-color:black;
+	height: 100px; 
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+	.aboutme{
+		display: none;
+	}
+	
+	form{
+		display: none;
+	}
+}
